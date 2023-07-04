@@ -211,11 +211,66 @@ dt a {
 .nav_mid {
     width: 690px;
     height: 458px;
-    background-color: skyblue;
 }
 /* 右侧边栏 */
 .nav_right {
     width: 290px;
     height: 458px;
-    background-color: green;
+}
+/* 顶部快报 */
+.nav_right .top {
+    width: 288.4px;
+    height: 156.4px;
+    border: 1px solid #d9d9d9;
+}
+.nav_right .top dl {
+    width: 262px;
+    margin: 0 auto;
+}
+.nav_right .top dt {
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_right .top dt>span {
+    font-size: 14px;
+    color: #000;
+}
+.nav_right .top dt>a,
+.nav_right .top dd
+ {
+    color: #999;
+}
+.nav_right .top dd {
+    margin: 6px 0;
+    height: 18px;
+    line-height: 18px;
+}
+.nav_right .top .first {
+    margin-top: 8px;
+}
+/* 底部图片导航栏 */
+.nav_right .bottom ul {
+    width: 290px;
+    height: 86px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_right .bottom ul:first-child {
+    margin-top: 26px;
+}
+.nav_right .bottom li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav_right .bottom li:hover {
+    cursor: pointer;
+}
+.nav_right .bottom li>img {
+    width: 48px;
+    height: 48px;
 }
